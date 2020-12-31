@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  corsa:
+    build: .
+    ports:
+      - "8090:8080"
+      - "8091:8081"
+    restart: always
