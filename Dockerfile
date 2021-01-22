@@ -3,7 +3,7 @@ FROM ubuntu:20.04
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt update
-RUN apt install default-jre -y
+RUN apt-get install openjdk-8-jdk
 
 WORKDIR /app
 

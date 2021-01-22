@@ -1,2 +1,2 @@
 #!/bin/bash
-java -Xmx2G -jar otp-2.0.0-shaded.jar --build --serve ./otp
+java -jar otp-1.4.0-shaded.jar  --build ./graphs/tetouan --inMemory   

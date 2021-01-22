@@ -1,9 +1,0 @@
-{
-  "timeouts": [5, 4, 3, 1],
-  "routingDefaults": {
-    "driveOnRight": true,
-    "maxWalkDistance": 2000,
-    "maxTransferWalkDistance": 2000,
-    "transferPenalty": 300
-  }
-}
